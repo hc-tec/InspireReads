@@ -12,8 +12,9 @@ export default function Home() {
   const firstChat = { id: 1 };
 
   return (
-    <div className="w-screen min-h-screen bg-gradient-to-r from-rose-100 to-teal-100 flex items-center justify-center">
-      <div className="flex flex-col items-center text-center">
+    <div 
+    className="w-screen min-h-screen bg-gradient-to-r from-rose-100 to-teal-100 flex items-center justify-center">
+      <div className="flex flex-col items-center text-center" style={{width: "50%"}}>
         <div className="flex items-center">
           <h1 className="mr-3 text-5xl font-semibold">Book AI</h1>
         </div>
@@ -29,7 +30,7 @@ export default function Home() {
         </div>
 
         <p className="max-w-xl mt-1 text-lg text-slate-600">
-          加入数百万学生、研究人员和专业人士，使用 AI 即时回答问题并理解研究
+          解读书籍的最佳助手，支持 PDF 上传。
         </p>
 
         <div className="w-full mt-4">
